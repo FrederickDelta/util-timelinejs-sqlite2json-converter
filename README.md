@@ -2,7 +2,7 @@
 
 ## About
 
-[TimelineJS](https://timeline.knightlab.com/) is an useful tool. To make a timeline, you can use Google spreadsheet or JSON to store your data. i I choose JSON, because I don't like to rely on a 3rd party service, and it seems to me that JSON gives me more freedom.
+[TimelineJS](https://timeline.knightlab.com/) is an useful tool. To make a timeline, you can use Google spreadsheet or JSON to store your data. I choose JSON, because I don't like to rely on a 3rd party service, and it seems to me that JSON gives me more freedom.
 
 But editing JSON file is painful, especially when you have many slides in a timeline. Purpose of this tool is to read data from a sqlite db which has the same data structure as the [Google spreadsheet](https://docs.google.com/spreadsheets/u/1/d/1xuY4upIooEeszZ_lCmeNx24eSFWe0rHe9ZdqH2xqVNk/pubhtml), convert it into JSON.
 
