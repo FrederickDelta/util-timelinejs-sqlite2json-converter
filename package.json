@@ -1,0 +1,14 @@
+{
+  "name": "timelinejs-sqlite2json-converter",
+  "version": "1.0.0",
+  "description": "Convert TimelineJS data from SQLite to JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Frederick D",
+  "license": "ISC",
+  "dependencies": {
+    "sqlite3": "^4.0.6"
+  }
+}
