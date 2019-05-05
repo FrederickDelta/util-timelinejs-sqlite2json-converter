@@ -10,18 +10,14 @@ But editing JSON file is painful, especially when you have many slides in a time
 
 ### Step 1
 
-Currently I don't know how to make a npm package, so just simply download below files
-
-- `package.json`
-- `index.js`
-- `timeline.sqlite`
+Clone the repo
 
 ### Step 2
 
-Install the dependencies
+Open the folder, install it to global
 
 ```bash
-npm install
+npm install -g .
 ```
 
 ### Step 3
@@ -30,13 +26,19 @@ You can use free tool like [DB Browser for SQLite](https://sqlitebrowser.org/) t
 
 ### Step 4
 
-After you finish data input
+After you finish data input, run command below to generate JSON
 
 ```bash
-node index.js
+timelinejs-s2j <SqliteFilepath> <JSONFilepath>
 ```
 
-Voila! You'll get TimelineJS ready JSON data in `timeline_out.json`
+eg.
+
+```bash
+timelinejs-s2j timeline.sqlite timeline.json
+```
+
+Voila! You'll get TimelineJS ready JSON data in `timeline.json`
 
 ## Known Issues
 
